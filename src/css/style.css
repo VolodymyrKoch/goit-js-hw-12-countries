@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: xxx-large;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: roboto, sans-serif;
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  width: 250px;
+}
+
+.input {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  font-style: initial;
+  font-size: xx-large;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.list {
+  display: inline-flex;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.capital {
+  text-align: justify;
+  width: max-content;
+  margin-right: 25px;
+}
+
+.capital ul {
+  list-style: inside;
+}
