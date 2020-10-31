@@ -61,3 +61,16 @@ img {
 .capital ul {
   list-style: inside;
 }
+
+.listTemplate {
+  display: block;
+  margin-bottom: 10px;
+
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.listTemplate:focus,
+.listTemplate:hover {
+  border-style: ridge;
+}
