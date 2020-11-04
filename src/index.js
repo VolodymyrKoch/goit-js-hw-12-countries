@@ -21,11 +21,12 @@ if (state.html || state.input) {
 const countries = function (e) {
       listRef.innerHTML = ""
   if (e.target.value.length === 0) {
-    return
+      return
    } 
        fetchCountries(e.target.value)
           .then((array) => {
-             if (array.length === 0) {
+            if (array.length === 0) {
+             
               listRef.innerHTML = "";
               info('Such a country is not found!')
               return
@@ -48,7 +49,7 @@ const countries = function (e) {
             }
          })
         .catch(alert => {
-             info('Сервер не відповідає!')
+             info('Wrong name!')
     })
             
 };
